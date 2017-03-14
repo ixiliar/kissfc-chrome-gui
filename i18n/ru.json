@@ -142,6 +142,11 @@
 	"title.logger-debug-configuration": "Журнал отладочной информации",
 	"title.vtx-config": "Видео передатчик",
 	"title.buzzer-emulation": "Иммитация пищалки",
+	"title.lap-timer": "Конфигурация Кругового Таймера",
+	"title.lipo-alarm": "Сигнализация батареи",
+	"title.led-color": "Led color",
+	"title.notch-filter": "Полосовой фильтр",
+	"title.yaw-filter": "Yaw фильтр",
 	
 	"column.use-custom-orientation": "Использовать особую ориентацию",
 	"column.fc-orientation": "Ориентация &deg;",
@@ -153,6 +158,13 @@
 	"column.vtx-low-power": "Низкая мощность: (мВ)&nbsp;",
 	"column.vtx-high-power": "Высокая мощность: (мВ)&nbsp;",
 	"column.buzzer-emulation": "Иммитировать пишалку моторами",
+	"column.lap-timer-type": "Тип и подключение",
+	"column.lipo-volts": "Напряжение меньше чем ",
+	"column.lipo-mah": "Использовано больше чем ",
+	"column.led-color": "Выберите цвет",
+	"column.notch-center": "Центральная частота (Гц)",
+	"column.notch-cutoff": "Частота отреза (Гц)",
+	"column.yaw-filter-strength" : "Сила Yaw фильтра",
 	
 	"serial.0": "ОСД",
 	"serial.1": "Журнал / 10%",
@@ -220,8 +232,26 @@
     "vtx-freq.36": "Рейсбенд:5 (5806 МГц)",
     "vtx-freq.37": "Рейсбенд:6 (5843 МГц)",
     "vtx-freq.38": "Рейсбенд:7 (5880 МГц)",
-    "vtx-freq.39": "Рейсбенд:8 (5917 МГц)"	
+    "vtx-freq.39": "Рейсбенд:8 (5917 МГц)",
     
+    
+	"lap-timer.0": "--",
+	"lap-timer.17": "EeasyRaceLapTimer вместо пищалки",
+	"lap-timer.18": "EeasyRaceLapTimer вместо мотора 5",
+	"lap-timer.19": "EeasyRaceLapTimer вместо мотора 6",
+
+
+	"led.black": "Черный",
+	"led.white": "Белый",
+	"led.yellow": "Желтый",
+	"led.orange": "Оранжевый",
+	"led.red": "Красный",
+	"led.purple": "Пурпурный",
+	"led.blue": "Синий",
+	"led.green": "Зеленый",
+	"led.cyan": "Голубой",
+	"led.custom": "Особый"
+	
     
 	
 }

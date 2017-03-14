@@ -199,16 +199,16 @@
 	<div class="wrapper-half">
 
 		<div id="lapTimer" class="wrapper-full">
-			<div class="groupTitle">Lap timer configuration</div>
+			<div class="groupTitle" data-i18n="title.lap-timer">Lap timer configuration</div>
 			<dl class="general-settings">
-				<dt class="lap-timer">Type and connection</dt>
+				<dt class="lap-timer"  data-i18n="column.lap-timer-type">Type and connection</dt>
 				<dd class="lap-timer-type-and-interface">
 					<select  class="unsafe" id="lapTimerTypeAndInterface"
 						name="lapTimerTypeAndInterface">
-						<option value="0">--</option>
-						<option value="17">EeasyRaceLapTimer on BUZZER pin</option>
-						<option value="18">EeasyRaceLapTimer on PWM5 pin</option>
-						<option value="19">EeasyRaceLapTimer on PWM6 pin</option>
+						<option value="0" data-i18n="lap-timer.0">--</option>
+						<option value="17" data-i18n="lap-timer.17">EeasyRaceLapTimer on BUZZER pin</option>
+						<option value="18" data-i18n="lap-timer.18">EeasyRaceLapTimer on PWM5 pin</option>
+						<option value="19" data-i18n="lap-timer.19">EeasyRaceLapTimer on PWM6 pin</option>
 					</select> <select class="lap-timer-transponder-id unsafe"
 						name="lapTimerTransponderId">
 					</select>
@@ -217,9 +217,9 @@
 		</div>
 
 		<div id="bat" class="wrapper-full">
-			<div class="groupTitle">Lipo alarm</div>
+			<div class="groupTitle" data-i18n="title.lipo-alarm">Lipo alarm</div>
 			<dl class="general-settings">
-				<dt title="low battery alarm" style="width:180px">Voltage is less than </dt>
+				<dt title="low battery alarm" style="width:180px" data-i18n="column.lipo-volts">Voltage is less than </dt>
 				<dd>
 					<input disabled="true" type="text" name="vbatAlarm" data-step="0.1"
 						data-min="0" data-max="26" data-precision="1" value="0.0" /><input
@@ -227,7 +227,7 @@
 				</dd>
 			</dl>
 			<dl class="general-settings">
-				<dt title="mah alarm" style="width:180px">Consumption is greater than </dt>
+				<dt title="mah alarm" style="width:180px" data-i18n="column.lipo-mah">Consumption is greater than </dt>
 				<dd>
 					<input disabled="true" type="text" name="mahAlarm" data-step="1"
 						data-min="0" data-max="24000" data-precision="0" value="0" /><input
@@ -237,23 +237,23 @@
 		</div>
 		
 		<div id="led" class="wrapper-full">
-				<div class="groupTitle">Led color</div>
+				<div class="groupTitle" data-i18n="title.led-color">Led color</div>
 				<dl class="general-settings">
 					<dt>
-						<span title="Led Color">Select Color</span>
+						<span title="Led Color" data-i18n="column.led-color">Select Color</span>
 					</dt>
 					<dd>
 						<select disabled="true" name="RGBSelector">
-							<option value="0,0,0">Black</option>
-							<option value="255,255,255">White</option>
-							<option value="255,255,0">Yellow</option>
-							<option value="255,123,0">Orange</option>
-							<option value="255,0,0">Red</option>
-							<option value="128,0,128">Purple</option>
-							<option value="0,0,255">Blue</option>
-							<option value="0,255,0">Green</option>
-							<option value="0,255,255">Cyan</option>
-							<option value="">Custom</option>
+							<option value="0,0,0" data-i18n="led.black">Black</option>
+							<option value="255,255,255"  data-i18n="led.white">White</option>
+							<option value="255,255,0"  data-i18n="led.yellow">Yellow</option>
+							<option value="255,123,0"  data-i18n="led.orange">Orange</option>
+							<option value="255,0,0"  data-i18n="led.red">Red</option>
+							<option value="128,0,128"  data-i18n="led.purple">Purple</option>
+							<option value="0,0,255"  data-i18n="led.blue">Blue</option>
+							<option value="0,255,0"  data-i18n="led.green">Green</option>
+							<option value="0,255,255"  data-i18n="led.cyan">Cyan</option>
+							<option value=""  data-i18n="led.custom">Custom</option>
 						</select><input type="hidden" id="colorPicker" /> <input type="hidden"
 							name="RGB" id="RGB" value="" />
 					</dd>
@@ -261,21 +261,22 @@
 			</div>
 
 		<div id="Notch" class="wrapper-full">
+		<div class="groupTitle" data-i18n="title.notch-filter">Notch Filter</div>
 		<table style="border: 0px;">
 			<tr>
 				<td width="176px">&nbsp;</td>
-				<td width="60px">Roll &nbsp; &nbsp;<input type="checkbox" name="NFE0"  disabled="true"/></td>
-				<td width="60px">Pitch &nbsp; &nbsp;<input type="checkbox" name="NFE1"  disabled="true"/></td>
+				<td width="60px"><span data-i18n="column.roll">Roll</span> &nbsp; &nbsp;<input type="checkbox" name="NFE0"  disabled="true"/></td>
+				<td width="60px"><span data-i18n="column.pitch">Pitch</span> &nbsp; &nbsp;<input type="checkbox" name="NFE1"  disabled="true"/></td>
 			</tr>
 			<tr>
-				<td>Center Frequency: (Hz)</td>
+				<td data-i18n="column.notch-center">Center Frequency: (Hz)</td>
 				<td><input disabled="true" type="text" name="NFCF0" data-step="1"
 						data-min="0" data-max="490" data-precision="0" value="200" size="3"/></td>
 				<td><input disabled="true" type="text" name="NFCF1" data-step="1"
 						data-min="0" data-max="490" data-precision="0" value="200" size="3"/></td>
 			</tr>
 			<tr>
-				<td>Cutoff Frequency: (Hz)</td>
+				<td data-i18n="column.notch-cutoff">Cutoff Frequency: (Hz)</td>
 				<td><input disabled="true" type="text" name="NFCO0" data-step="1"
 						data-min="0" data-max="490" data-precision="0" value="100" size="3"/></td>
 				<td><input disabled="true" type="text" name="NFCO1" data-step="1"
@@ -285,9 +286,9 @@
 		</div>
 		
 		<div id="yawCF" class="wrapper-full">
-			<div class="groupTitle">Yaw Filter</div>
+			<div class="groupTitle" data-i18n="title.yaw-filter">Yaw Filter</div>
 			<dl class="general-settings">
-				<dt style="width:180px;">Yaw Filter strength:&nbsp;</dt>
+				<dt style="width:180px;"><span data-i18n="column.yaw-filter-strength">Yaw Filter strength</span>&nbsp;</dt>
 				<input disabled="true" type="text" name="YCF" data-step="1"
 					data-min="0" data-max="97" data-precision="0" value="92" />
 			</dl>

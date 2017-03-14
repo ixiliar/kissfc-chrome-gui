@@ -139,7 +139,11 @@
 	"title.logger-debug-configuration": "Logger Debug Configuration",
 	"title.vtx-config": "VTX config",
 	"title.buzzer-emulation": "Buzzer emulation",
-	
+	"title.lap-timer": "Lap timer configuration",
+	"title.lipo-alarm": "Lipo alarm",
+	"title.led-color": "Led color",
+	"title.notch-filter": "Notch Filter",
+	"title.yaw-filter": "Yaw Filter",
 	
 	"column.use-custom-orientation": "Use custom orientation",
 	"column.fc-orientation": "FC orientation &deg;",
@@ -151,6 +155,13 @@
 	"column.vtx-low-power": "Low Power: (mW)&nbsp;",
 	"column.vtx-high-power": "High Power: (mW)&nbsp;",
 	"column.buzzer-emulation": "Emulate with motors",
+	"column.lap-timer-type": "Type and connection",
+	"column.lipo-volts": "Voltage is less than ",
+	"column.lipo-mah": "Consumption is greater than ",
+	"column.led-color": "Select Color",
+	"column.notch-center": "Center Frequency: (Hz)",
+	"column.notch-cutoff": "Cutoff Frequency: (Hz)",
+	"column.yaw-filter-strength" : "Yaw Filter strength",
 	
 	"serial.0": "OSD",
 	"serial.1": "Logger / 10%",
@@ -218,7 +229,21 @@
     "vtx-freq.36": "RaceBand:5 (5806 MHz)",
     "vtx-freq.37": "RaceBand:6 (5843 MHz)",
     "vtx-freq.38": "RaceBand:7 (5880 MHz)",
-    "vtx-freq.39": "RaceBand:8 (5917 MHz)"	
+    "vtx-freq.39": "RaceBand:8 (5917 MHz)",
 					
-    
+    "lap-timer.0": "--",
+	"lap-timer.17": "EeasyRaceLapTimer on BUZZER pin",
+	"lap-timer.18": "EeasyRaceLapTimer on PWM5 pin",
+	"lap-timer.19": "EeasyRaceLapTimer on PWM6 pin",
+	
+	"led.black": "Black",
+	"led.white": "White",
+	"led.yellow": "Yellow",
+	"led.orange": "Orange",
+	"led.red": "Red",
+	"led.purple": "Purple",
+	"led.blue": "Blue",
+	"led.green": "Green",
+	"led.cyan": "Cyan",
+	"led.custom": "Custom"
 }
