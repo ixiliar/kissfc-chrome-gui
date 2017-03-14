@@ -150,3 +150,11 @@ GUI.switchContent = function(newContent, callback) {
         callback();
     }
 }
+
+GUI.load = function(url, callback) {
+    $('#content').load("./content/configuration.html", function() {
+ 
+        callback();
+        $("*", "#content").i18n();
+    });
+}

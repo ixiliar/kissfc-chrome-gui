@@ -4,6 +4,20 @@ var MIN_CONFIG_VERSION = 108; // this gui can manage versions in this range
 var MAX_CONFIG_VERSION = 108;
 
 $(document).ready(function() {
+    
+    $.i18n.debug = true;
+    
+    var lang = "ru";
+    
+    $.i18n({
+        locale: lang
+    });
+
+    $.i18n().load( './i18n/'+lang+'.json', lang ).done(
+           function() {
+               $("*").i18n();
+    });
+    
     PortHandler.initialize();
     CONTENT.welcome.initialize();
 
