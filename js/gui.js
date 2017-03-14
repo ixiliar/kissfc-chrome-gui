@@ -152,7 +152,7 @@ GUI.switchContent = function(newContent, callback) {
 }
 
 GUI.load = function(url, callback) {
-    $('#content').load("./content/configuration.html", function() {
+    $('#content').load(url, function() {
  
         callback();
         $("*", "#content").i18n();
