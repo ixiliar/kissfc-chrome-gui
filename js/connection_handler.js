@@ -44,7 +44,7 @@ $(document).ready(function() {
                         $('#port').prop('disabled', false);
 
                         // reset connect / disconnect button
-                        $('a.connect').text('Connect');
+                        $('a.connect').text($.i18n('menu.connect'));
                         $('a.connect').removeClass('active');
 
                         $('#navigation li:not([data-name="welcome"])').removeClass('unlocked');
