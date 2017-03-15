@@ -33,7 +33,7 @@
     "rx-type.12":"PPM:Pitch,Roll,Thr.,Yaw",
     "rx-type.13": "PPM:Roll,Pitch,Thr.,Yaw",
     "rx-type.14": "Multiplex SRXL",
-    "rx-type.15": "FrSky S-BUS (не инвертированный)",
+    "rx-type.15": "FrSky S-BUS (не инверт.)",
     "rx-type.16": "JR XBus Mode B",
     
     "title.uav-type": "Тип UAV",
@@ -48,22 +48,23 @@
     "column.p": "П",
     "column.i": "И",
     "column.d": "Д",
+    "column.throttle": "Тяга",
     "column.roll": "Крен",
     "column.pitch": "Танг",
     "column.yaw": "Рыск",
     "column.tpa": "TPA",
     "column.level": "Уровень",
     "comumn.level-max": "Макс &deg;",
-    "column.rc-rate": "РУ Рейт",
+    "column.rc-rate": "РУ рейт",
     "column.rc-expo": "Рейт",
-    "column.rc-curve": "РУ Кривая",
+    "column.rc-curve": "РУ кривая",
     "column.lpf-frequency": "ФНЧ частота",
-    "column.min-throttle": "Мин. Тяга",
-    "column.max-throttle": "Макс. Тяга",
-    "column.min-command": "Мин. Команда",
-    "column.mid-command": "Сред. Команда",
-    "column.esc-mode": "ESC Режим",
-    "column.3d-mode": "3D Режим",
+    "column.min-throttle": "Мин. тяга",
+    "column.max-throttle": "Макс. тяга",
+    "column.min-command": "Мин. команда",
+    "column.mid-command": "Сред. команда",
+    "column.esc-mode": "ESC режим",
+    "column.3d-mode": "3D режим",
     "column.tri-yaw-mid": "Серво центр",
     "column.tri-yaw-invert": "Серво инверсия",
     
@@ -71,12 +72,12 @@
  	"column.buzzer" : "Пищалка", 
     "column.led" : "Светодиоды",
     "column.3d": "3D",
-    "column.vtx-power": "Видео Мощн.",
+    "column.vtx-power": "Видео мощн.",
     "column.vtx-band": "Видео Банд",
-    "column.vtx-channel": "Видео Канал",
+    "column.vtx-channel": "Видео канал",
     
     "option.preset": "Предустановки",
-    "option.user": "Других ползователей",
+    "option.user": "Других пользователей",
     "option.custom": "Особые",
     
     "button.share": "Поделиться",
@@ -250,8 +251,70 @@
 	"led.blue": "Синий",
 	"led.green": "Зеленый",
 	"led.cyan": "Голубой",
-	"led.custom": "Особый"
+	"led.custom": "Особый",
 	
+	
+	
+	
+	
+
+	"title.motors": "Моторы",
+	"title.other": "Разное",
+	"title.telemetry": "Телеметрия",
+	
+	"button.test": "ТЕСТ",
+	"button.calibrate-accelerometer": "Калибровать акселерометр",
+	"text.motor-test-button": "Я ЗНАЮ ЧТО Я ДЕЛАЮ",
+
+    "column.mode": "Режим:",
+    "column.status": "Статус:",
+    "column.angle-x": "УголХ:",
+    "column.idle": "Свободно:",
+    "column.angle-y": "УголY:",
+    "column.voltage": "Напряж.:",
+    
+    "text.acro": "Акро",
+    "text.level": "Уровень",
+    "text.3d": "3D",
+    "text.armed": "Вкл.",
+    "text.disarmed": "Выкл.",
+    "text.enable-motor-test": "Включить проверку моторов ",
+    "text.motor-test-warning": "Осторожно - это может быть опасно!<br/><br/>Пожалуйста, не пользуйтесь тестом моторов с установленными пропеллерами!<br/><br/>Используйте этот тест только если вы уверены в своей безопасности.<br/><br/>",
+    
+    
+    "legend.1": "Гироскоп X",
+    "legend.2": "Гироскоп Y",
+    "legend.3": "Гироскоп Z",
+    "legend.4": "Акселерометр X",
+    "legend.5": "Акселерометр Y",
+    "legend.6": "Акселерометр Z",
+    
+    "legend.7": "ESC макс. Темп.",
+    "legend.8": "ESC мин. Напр.",
+    "legend.9": "ESC макс. Ток",
+    "legend.10": "ESCs полн. A/h",
+    "legend.11": "ESC макс. Е-О/М",
+    "legend.12": "ESCs макс. Ватт",
+    
+    "legend.13": "ESC на PWM1",
+    "legend.14": "ESC на PWM2",
+    "legend.15": "ESC на PWM3",
+    "legend.16": "ESC на PWM4",
+    "legend.17": "ESC на PWM5",
+    "legend.18": "ESC на PWM6",
+  
+    
+    "telemetry.0": "Гироскоп & Акселерометр",
+    "telemetry.1": "ESC температура",
+    "telemetry.2": "ESC напряжение",
+    "telemetry.3": "ESC силa тока",
+    "telemetry.4": "ESC использовано А/ч",
+    "telemetry.5": "ESC Е-О/М / 1000",
+    "telemetry.6": "ESC cтатистика телеметрии"
+      
+ 
+    
+ 
     
 	
 }

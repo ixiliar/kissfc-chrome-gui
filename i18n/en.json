@@ -48,6 +48,7 @@
     "column.p": "P",
     "column.i": "I",
     "column.d": "D",
+    "column.throttle": "Throttle",
     "column.roll": "Roll",
     "column.pitch": "Pitch",
     "column.yaw": "Yaw",
@@ -245,5 +246,68 @@
 	"led.blue": "Blue",
 	"led.green": "Green",
 	"led.cyan": "Cyan",
-	"led.custom": "Custom"
+	"led.custom": "Custom",
+	
+	
+	
+	
+	
+	
+	
+	
+	"title.motors": "Motors",
+	"title.other": "Other",
+	
+	
+	"button.test": "TEST",
+	"button.calibrate-accelerometer": "Calibrate Accelerometer",
+	"text.motor-test-button": "I KNOW WHAT I AM DOING",
+
+    "column.mode": "Mode:",
+    "column.status": "Status:",
+    "column.angle-x": "AngleX:",
+    "column.idle": "Idle:",
+    "column.angle-y": "AngleY:",
+    "column.voltage": "Voltage:",
+    
+    "text.acro": "Acro",
+    "text.level": "Level",
+    "text.3d": "3D",
+    "text.armed": "Armed",
+    "text.disarmed": "Disarmed",
+    "text.enable-motor-test": "Enable Motors Test ",
+    "text.motor-test-warning": "Caution - potentially dangerous!<br/><br/>Please remove propellers before starting the motor test!<br/><br/>Use this feature at your own risk.<br/><br/>It will only work when the FC is disarmed.<br/><br/>",
+    
+    
+    "legend.1": "Gyroscope X",
+    "legend.2": "Gyroscope Y",
+    "legend.3": "Gyroscope Z",
+    "legend.4": "Accelerometer X",
+    "legend.5": "Accelerometer Y",
+    "legend.6": "Accelerometer Z",
+    
+    "legend.7": "ESC max. Temp.",
+    "legend.8": "ESC min. Voltage",
+    "legend.9": "ESC max. Amp.",
+    "legend.10": "ESCs total A/h",
+    "legend.11": "ESC max. eRpM",
+    "legend.12": "ESCs max. Watt",
+    
+    "legend.13": "ESC on PWM1",
+    "legend.14": "ESC on PWM2",
+    "legend.15": "ESC on PWM3",
+    "legend.16": "ESC on PWM4",
+    "legend.17": "ESC on PWM5",
+    "legend.18": "ESC on PWM6",
+  
+    
+    "telemetry.0": "Gyro & ACC Data",
+    "telemetry.1": "ESC Temperatures",
+    "telemetry.2": "ESC Voltanges",
+    "telemetry.3": "ESC Currents",
+    "telemetry.4": "ESC used A/h",
+    "telemetry.5": "ESC E-RpM / 1000",
+    "telemetry.6": "ESC TLM Stats"
+	
+	
 }
