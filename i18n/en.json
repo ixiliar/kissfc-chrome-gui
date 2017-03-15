@@ -307,7 +307,20 @@
     "telemetry.3": "ESC Currents",
     "telemetry.4": "ESC used A/h",
     "telemetry.5": "ESC E-RpM / 1000",
-    "telemetry.6": "ESC TLM Stats"
+    "telemetry.6": "ESC TLM Stats",
+    
+    
+    "title.charts": "Charts",
+    "title.rates": "Rates",
+    
+    "text.rates-warning" : "W A R N I N G",
+    "text.rates-max-rotation" : "Max rotation > 2000 °/sec!",
+    "text.rates-sec": "sec",
+     "text.rates-rolls": "rolls/",
+    "text.rates-flips": "flips/",
+    "text.rates-turns": "turns/",
+    "text.rates-max": "Max"
+    
 	
 	
 }

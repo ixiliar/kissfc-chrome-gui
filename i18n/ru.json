@@ -310,9 +310,19 @@
     "telemetry.3": "ESC силa тока",
     "telemetry.4": "ESC использовано А/ч",
     "telemetry.5": "ESC Е-О/М / 1000",
-    "telemetry.6": "ESC cтатистика телеметрии"
+    "telemetry.6": "ESC cтатистика телеметрии",
       
  
+    "title.charts": "Графики",
+    "title.rates": "Рейты",
+    
+    "text.rates-warning" : "В Н И М А Н И Е",
+    "text.rates-max-rotation" : "Макс. скорость > 2000 °/сек!",
+    "text.rates-sec": "сек",
+    "text.rates-rolls": "бочек/",
+    "text.rates-flips": "петель/",
+    "text.rates-turns": "оборотов/",
+    "text.rates-max": "Макс"
     
  
     
