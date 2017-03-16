@@ -5,7 +5,7 @@ var MAX_CONFIG_VERSION = 108;
 
 $(document).ready(function() {
     
-    $.i18n.debug = true;
+    //$.i18n.debug = true;
     
     var lang = "ru";
     

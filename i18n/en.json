@@ -375,9 +375,25 @@
     "volts.21":   "21v",
     "volts.21.5": "21.5v",
     "volts.22":   "22v",
-    "volts.22.5": "22.5v"
+    "volts.22.5": "22.5v",
     
     
+    
+    
+    "title.esc-flasher": "KISS ESC Flasher",
+    "title.esc-info": "KISS ESC Info",
+    "title.esc-flasher-complete": "ESC FLASHING COMPLETE!!!",
+    		
+	"button.select-firmware": "SELECT FIRMWARE",
+	"button.flash-firmware": "FLASH FIRMWARE",
+	"button.esc-flasher-accept": "I KNOW WHAT I AM DOING",
+
+	"text.esc-flasher-warning": "Caution - potentially dangerous!<br/><br/>ESC Flasher works ONLY if you have KISS 24A ESC<br> with <b>bootloader</b> (version 1.02 or later)!<br/><br/>Please remove propellers before starting ESC Flashing!<br/><br/>Use this feature at your own risk.<br/><br/>You will have to power cycle your KISSFC after flashing!<br/><br/>",
+    "text.esc-flasher-complete": "<br/><br/> <br/><br/>For safety reasons, communication with KISS FC has been terminated.<br/><br/>Please unplug your battery, and reconnect your KISS FC.<br/><br/>",
+    "text.esc-flasher-success": "SUCCESS!",
+	"text.esc-flasher-progress": "Progress $1%",
+	"text.esc-flasher-loaded": "Loaded $1 blocks from $2",
+	"text.esc-flasher-invalid-firmware": "Selected esc firmware file is not suitable for flashing"
 	
 	
 }
