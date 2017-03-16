@@ -393,7 +393,18 @@
     "text.esc-flasher-success": "SUCCESS!",
 	"text.esc-flasher-progress": "Progress $1%",
 	"text.esc-flasher-loaded": "Loaded $1 blocks from $2",
-	"text.esc-flasher-invalid-firmware": "Selected esc firmware file is not suitable for flashing"
+	"text.esc-flasher-invalid-firmware": "Selected esc firmware file is not suitable for flashing.",
+	
+	"title.fc-flasher": "KISS FC Flasher",
+    		
+	"text.fc-flasher-success": "SUCCESS!",
+	"text.fc-flasher-progress": "Progress $1%",
+	"text.fc-flasher-loaded": "Loaded $1 blocks from $2",
+	"text.fc-flasher-invalid-firmware": "Selected fc firmware file is not suitable for flashing.",
+	"text.fc-flasher-flashing": "Flashing the firmware",
+	"text.fc-flasher-unprotect": "Protection removed",
+	"text.fc-flasher-failure": "FAILURE: $1",
+	"text.fc-flasher-complete": "Flashing complete!!!"
 	
 	
 }

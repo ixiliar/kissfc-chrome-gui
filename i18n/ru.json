@@ -380,6 +380,9 @@
     "volts.22.5": "22.5 вольта",
     
     
+    
+    
+    
     "title.esc-flasher": "KISS ESC Программатор",
     "title.esc-info": "KISS ESC информация",
     "title.esc-flasher-complete": "Программирование закончено!!!",
@@ -394,5 +397,19 @@
 	"text.esc-flasher-success": "УСПЕХ!",
 	"text.esc-flasher-progress": "Завершено $1%",
 	"text.esc-flasher-loaded": "Загружено $1 блоков из $2",
-	"text.esc-flasher-invalid-firmware": "Выбранная прошивка не может быть запрограммирована."
+	"text.esc-flasher-invalid-firmware": "Выбранная прошивка не может быть запрограммирована.",
+	
+	
+	
+	
+	"title.fc-flasher": "KISS FC Программатор",
+    		
+	"text.fc-flasher-success": "УСПЕХ!",
+	"text.fc-flasher-progress": "Завершено $1%",
+	"text.fc-flasher-loaded": "Загружено $1 блоков из $2",
+	"text.fc-flasher-invalid-firmware": "Выбранная прошивка не может быть запрограммирована.",
+	"text.fc-flasher-flashing": "Программирую прошивку",
+	"text.fc-flasher-unprotect": "Снимаю защиту",
+	"text.fc-flasher-failure": "ОШИБКА: $1",
+	"text.fc-flasher-complete": "Программирование закончено!!!"
 }
