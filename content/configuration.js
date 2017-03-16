@@ -258,7 +258,7 @@ CONTENT.configuration.initialize = function(callback) {
 
         var mixer_list_e = $('select.mixer');
         for (var i = 0; i < mixerList.length; i++) {
-            mixer_list_e.append('<option value="' + (i) + '">' + mixerList[i].name + '</option>');
+            mixer_list_e.append('<option data-i18n="mixer.'+(i)+'" value="' + (i) + '">' + mixerList[i].name + '</option>');
         }
 
         mixer_list_e.on('change', function() {

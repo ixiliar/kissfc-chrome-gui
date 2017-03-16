@@ -12,11 +12,12 @@
     "menu.connect" : "Соединить",
     "menu.connecting" : "Соединяю",
     "menu.advanced" : "Експерт",
-    "menu.data-output": "Выходные данные",
+    "menu.data-output": "Выход. данные",
     "menu.rates": "Рейты",
     "menu.tpa": "TPA",
     "menu.esc-flasher": "ESC программатор",
     "menu.disconnect": "Разъединить",
+    "menu.lang": "Язык",
     
     "rx-type.0": "Autodetect",
     "rx-type.1": "4-6 single Channel",
