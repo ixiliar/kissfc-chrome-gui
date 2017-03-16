@@ -411,5 +411,10 @@
 	"text.fc-flasher-flashing": "Программирую прошивку",
 	"text.fc-flasher-unprotect": "Снимаю защиту",
 	"text.fc-flasher-failure": "ОШИБКА: $1",
-	"text.fc-flasher-complete": "Программирование закончено!!!"
+	"text.fc-flasher-complete": "Программирование закончено!!!",
+	
+	
+	
+	"title.kiss": "KISS Контроллер конфигуратор",
+	"text.connect": "Пожалуйста, подключите ваш контроллер к компютеру и выберите порт."
 }

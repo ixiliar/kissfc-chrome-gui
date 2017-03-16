@@ -7,7 +7,7 @@ $(document).ready(function() {
     
     //$.i18n.debug = true;
     
-    var lang = "en";
+    var lang = "ru";
     
     $.i18n({
         locale: lang
