@@ -322,9 +322,61 @@
     "text.rates-rolls": "бочек/",
     "text.rates-flips": "петель/",
     "text.rates-turns": "оборотов/",
-    "text.rates-max": "Макс"
+    "text.rates-max": "Макс",
     
- 
     
+    
+    
+    
+    "title.pids" : "ПИДы",
+    "title.tpa-influence-chart": "График влияния TPA",
+    "title.tpa-influence": "Влияние TPA",
+    "title.battery-influence": "Влияние батареи",
+    
+    "column.custom-tpa-influence": "Использовать особые значения влияния TPA",
+    "column.pid-voltage-correction": "ПИДы зависят от напряжения батареи",
+    "column.influence-percentage": "Влияние [%]",
+    "column.throttle-percentage": "Тяга [%]",
+    "column.battery-voltage": "Напряжение [В]",
+    "column.pid-strength-percentage": "Сила ПИДов [%]",
+    
+ 	"breakpoint.1": "Без тяги",
+	"breakpoint.2": "Точка 1",
+	"breakpoint.3": "Точка 2",
+	"breakpoint.4": "Полная тяга",
+	
+	"voltage.1": "Напр. 1",
+	"voltage.2": "Напр. 2",
+	"voltage.3": "Напр. 3",
+	
+	"text.voltage-prefix": "Когда напр. батареи равно",
+	"text.voltage-suffix": "ее влияние на пиды будет",
+	
+    "volts.10":   "10 вольт",
+    "volts.10.5": "10.5 вольт",
+    "volts.11":   "11 вольт",
+    "volts.11.5": "11.5 вольт",
+    "volts.12":   "12 вольт",
+    "volts.12.5": "12.5 вольт",
+    "volts.13":   "13 вольт",
+    "volts.13.5": "13.5 вольт",
+    "volts.14":   "14 вольт",
+    "volts.14.5": "14.5 вольт",
+    "volts.15":   "15 вольт",
+    "volts.15.5": "15.5 вольт",
+    "volts.16":   "16 вольт",
+    "volts.16.5": "16.5 вольт",
+    "volts.17":   "17 вольт",
+    "volts.17.5": "17.5 вольт",
+    "volts.18":   "18 вольт",
+    "volts.18.5": "18.5 вольт",
+    "volts.19":   "19 вольт",
+    "volts.19.5": "19.5 вольт",
+    "volts.20":   "20 вольт",
+    "volts.20.5": "20.5 вольт",
+    "volts.21":   "21 вольт",
+    "volts.21.5": "21.5 вольт",
+    "volts.22":   "22 вольта",
+    "volts.22.5": "22.5 вольта"
 	
 }

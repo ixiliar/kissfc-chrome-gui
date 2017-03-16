@@ -319,7 +319,64 @@
      "text.rates-rolls": "rolls/",
     "text.rates-flips": "flips/",
     "text.rates-turns": "turns/",
-    "text.rates-max": "Max"
+    "text.rates-max": "Max",
+    
+    
+    
+    
+    
+    "title.pids" : "PIDs",
+    "title.tpa-influence-chart": "TPA influence chart",
+    "title.tpa-influence": "TPA influence",
+    "title.battery-influence": "Battery influence",
+    
+    "column.custom-tpa-influence": "Use custom TPA influence values",
+    "column.pid-voltage-correction": "Use PID Voltage Correction",
+    "column.influence-percentage": "Influence [%]",
+    "column.throttle-percentage": "Throttle [%]",
+    "column.battery-voltage": "Lipo Voltage [V]",
+    "column.pid-strength-percentage": "PID strength [%]",
+    
+    
+ 	"breakpoint.1": "Zero Throttle",
+	"breakpoint.2": "Breakpoint 1",
+	"breakpoint.3": "Breakpoint 2",
+	"breakpoint.4": "Full Throttle",
+		
+	"voltage.1": "Voltage 1",
+	"voltage.2": "Voltage 2",
+	"voltage.3": "Voltage 3",
+	
+	"text.voltage-prefix": "With battery voltage",
+	"text.voltage-suffix": "its influence on PIDS will be",
+	
+    "volts.10":   "10v",
+    "volts.10.5": "10.5v",
+    "volts.11":   "11v",
+    "volts.11.5": "11.5v",
+    "volts.12":   "12v",
+    "volts.12.5": "12.5v",
+    "volts.13":   "13v",
+    "volts.13.5": "13.5v",
+    "volts.14":   "14v",
+    "volts.14.5": "14.5v",
+    "volts.15":   "15v",
+    "volts.15.5": "15.5v",
+    "volts.16":   "16v",
+    "volts.16.5": "16.5v",
+    "volts.17":   "17v",
+    "volts.17.5": "17.5v",
+    "volts.18":   "18v",
+    "volts.18.5": "18.5v",
+    "volts.19":   "19v",
+    "volts.19.5": "19.5v",
+    "volts.20":   "20v",
+    "volts.20.5": "20.5v",
+    "volts.21":   "21v",
+    "volts.21.5": "21.5v",
+    "volts.22":   "22v",
+    "volts.22.5": "22.5v"
+    
     
 	
 	
