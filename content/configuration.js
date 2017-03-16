@@ -221,7 +221,7 @@ CONTENT.configuration.initialize = function(callback) {
             MCUid += data['SN'][i].toString(16).toUpperCase();
         }
 
-        var sntext = MCUid + ' (' + (data['isActive'] ? $.i18n('text.activated') : $.i18('text.not-activated')) + ')';
+        var sntext = MCUid + ' (' + (data['isActive'] ? $.i18n('text.activated') : $.i18n('text.not-activated')) + ')';
         $('#SN').text(sntext);
         $('#SN2').text($.i18n("text.serial-number")+": " + MCUid);
 
